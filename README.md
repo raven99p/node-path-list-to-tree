@@ -2,6 +2,9 @@
 
 Converts a list of file paths into a tree structure.
 
+This is a forked npm package from here https://www.npmjs.com/package/path-list-to-tree.
+I modified it, so the output tree has "label" instead of "name". 
+
 ## Example
 
 ```javascript
