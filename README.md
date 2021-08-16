@@ -25,28 +25,28 @@ console.log(pathListToTree(filePaths))
 ```json
 [
    {
-      "name":".gitignore",
+      "label":".gitignore",
       "children":[
 
       ]
    },
    {
-      "name":"README.md",
+      "label":"README.md",
       "children":[
 
       ]
    },
    {
-      "name":"package.json",
+      "label":"package.json",
       "children":[
 
       ]
    },
    {
-      "name":"src",
+      "label":"src",
       "children":[
          {
-            "name":"index.ts",
+            "label":"index.ts",
             "children":[
 
             ]
@@ -54,19 +54,19 @@ console.log(pathListToTree(filePaths))
       ]
    },
    {
-      "name":"tsconfig.json",
+      "label":"tsconfig.json",
       "children":[
 
       ]
    },
    {
-      "name":"yarn-error.log",
+      "label":"yarn-error.log",
       "children":[
 
       ]
    },
    {
-      "name":"yarn.lock",
+      "label":"yarn.lock",
       "children":[
 
       ]
