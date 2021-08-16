@@ -1,16 +1,16 @@
 export interface TreeNode {
-  name: string;
+  label: string;
   children: TreeNode[]
 }
 
 function createNode(path: string[], tree: TreeNode[]) : void {
-  const name = path.shift();
+  const label = path.shift();
   const idx = tree.findIndex((e: TreeNode) => {
-    return e.name == name;
+    return e.label == label;
   });
   if(idx < 0){
     tree.push({
-      name: name,
+      label: label,
       children: []
     });
     if(path.length !== 0) {
