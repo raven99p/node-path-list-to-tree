@@ -16,10 +16,9 @@
   "types": "./dist/index.d.ts",
   "devDependencies": {
     "@types/node": "^9.6.5",
-    "typescript": "^2.8.1"
+    "typescript": "^3.9.7"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "keywords": [
     "path",
     "list",
